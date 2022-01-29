@@ -1,0 +1,171 @@
+Received: from MBS11.vit.ac.in (10.10.4.71) by MBS13.vit.ac.in (10.10.4.73)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2308.8 via Mailbox
+ Transport; Wed, 24 Nov 2021 10:00:54 +0530
+Received: from MBS13.vit.ac.in (10.10.4.73) by MBS11.vit.ac.in (10.10.4.71)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2308.20; Wed, 24 Nov
+ 2021 10:00:53 +0530
+Received: from ciscoesa2.vit.ac.in (10.10.4.35) by MBS13.vit.ac.in
+ (10.10.4.73) with Microsoft SMTP Server id 15.1.2308.8 via Frontend
+ Transport; Wed, 24 Nov 2021 10:00:53 +0530
+IronPort-SDR: L5Nec1+Vz47k33qwb50hMrLHkc2Lh3ZKR7veZrO/Sz40gBQ5toF3eVz0HaYM67O6QpRXjvXKML
+ 8ZAJ3Dso61SHtjf7qVcAZVv++wvg5dX0m9xM14mUvqhuYrzX5fKKhyc032GYfZbtow+WNBMoBd
+ 758UTUbdEhOzz7Kj36Up3Yp5WcFw+THowr8fwqFce33HX/fO76DZ6pxWaDiOMm/utIIqWlyd7V
+ rmU6zWj2pLxXRctvpuxkH5KbwTTTKQ96Ij/87QdvxGhIPOD13698/lH7fp7rhgKfG4crfmxg3K
+ Y5iW5k8Xd+B7IL68KAPmf3R1
+IronPort-PHdr: =?us-ascii?q?A9a23=3AdLIxwBNSuQoLyP58ULwl6na6ChdPi9zP1u491?=
+ =?us-ascii?q?JMrhvp0f7i5+Ny6ZQqDv6wr0ACCAt2TwskHotKei7rnV20E7MTJm1E5W7sIa?=
+ =?us-ascii?q?SU4j94LlRcrGs+PBB6zBvfraysnAJYKDwc9rDm0PkdPBcnxeUDZrGGs4j4OA?=
+ =?us-ascii?q?BX/Mhd+KvjoFoLIgMm7yf2+94fcbghKizawY69+JwiqoAvMscUbnZFsIbsrx?=
+ =?us-ascii?q?BvTpXtIdeVWxWd2Kl+Wgh3x+MS+8oN9/ipJo/4u+NJOXqv8f6QjULxXFy8mP?=
+ =?us-ascii?q?Hwv5M3qrhbMUw2C7WYBX2oMkxpIBw/F7AzmXpr0ryD3uPZx1DWcMMbrSr86Q?=
+ =?us-ascii?q?TOi4aRlRhT1jCsLKiI1/GTRh8dtjqxUvQihqgR/zYDKfY+aO/1wcLvBct4BX?=
+ =?us-ascii?q?2VNQtpdWStfDo+gbYYCCfcKM+ZCr4n6olsDtQewCBWrCu7y1jJFm3H51rA/3?=
+ =?us-ascii?q?eo4Hw/LwAouEdETu3nTrtX6LqgSUfq0zKnUzDXDbO1Z2THg54jSaB8hp+uDX?=
+ =?us-ascii?q?axrfsrR00YvDRnKjkmLpIzqOjOazOUNs2yB4+V8UuKvjncqpgdsqTeg2skik?=
+ =?us-ascii?q?JPGhp4Jyl/a7yV5xp44KNK2RkB7btOpH59dujyEOodqXM8vQX9ktSQ6x7AGp?=
+ =?us-ascii?q?JK1fDUHxZU6yxPcd/GLbZaF7g/jWeuePTt1mHZoda6xihu07EOuyfX8W9Gq3?=
+ =?us-ascii?q?FpWqidJiNrBu3AX2xDO9MSKSeFx80al1DqXygzf9v9ILVo3mKffMZIt3KQ8m?=
+ =?us-ascii?q?ocNvUnMGCL9hV/4g7WMdko+/+il8+Tnbavipp+bL4J0jxvxMqUqmsCmD+U4N?=
+ =?us-ascii?q?xUCU3GV+em90LDv50L5QLJNjv05lqnWrorWKtgcpq68GwNV04Aj5AijDzq+z?=
+ =?us-ascii?q?tgUgX0KIEhGdR+HlYTlJk/CLfPiAfq+h1mgiDJryOrHPr3lDJXNNH/DkLL5c?=
+ =?us-ascii?q?LZ/8UFcxxAzzdFD55JVCbEOPvTzVVLrtNPCCB82KRK0zP3nCNpnzIMRQ36PD?=
+ =?us-ascii?q?7SWMKPXq1CI5+YvL/OQa48SvTbxM+Il6OL2jX8lhV8derGk3YENZ3C6APtmO?=
+ =?us-ascii?q?EWZbWDvgtccFGcFpBA+Qff0iF2DTT5ffWy9UL4m6jE6DoL1RbvEE9S3ib6Mx?=
+ =?us-ascii?q?yf9HYBTb3puFFGQV37jMYSCDaQiciWXd/VItxYtf4XpaKgN/DWP/Fv4wrV9L?=
+ =?us-ascii?q?/bV+SAeuYjq0tFr7e3ajxgu3TNxBsWZlWqKSjcnzSszWzYq0fUn8gRGwVCZ3?=
+ =?us-ascii?q?P0h25SwXfRW97VGVQA1MZOaxOt/WLWQEkqJNp/BAFqlQ9DzGTgqVZoxztYCb?=
+ =?us-ascii?q?lw7GoCKgRXK3i7sCLgQ37yGDZA56OTHiiKpfZ8lki+cnKkshlUrWI1FYEj62?=
+ =?us-ascii?q?J5xzBTUVOur2w3R3+7iPb8E0nvV/XyYhSqBu0ZXVAM2WqLADzgTYU7frNKx4?=
+ =?us-ascii?q?U2KTbahE7U7MwhMz8KYI61DdNfphE9PWN/sPd3fZyS6nGL4CRuTx7yKZZbnY?=
+ =?us-ascii?q?C1HhHSbWBVCyVpLuyjbfQElTj+suWffECBjGRr0bkXg/PM/4Gi+UldyygiLa?=
+ =?us-ascii?q?0N70L/g+Bcan/2ASvAe2L4esSEotT90FUy0w/rZDtOBo0xqe6APBLF1qB8Pn?=
+ =?us-ascii?q?SqRuwl0JJf1N6l5nRZea1FRmGXDnw5vX7x9uPIDik8L6ic6JaODhXVmUR7Zl?=
+ =?us-ascii?q?ZD9M7HaMC/85heqPqHT01Dalt2R/88y?=
+IronPort-Data: =?us-ascii?q?A9a23=3AvRRxTqC5yHMPxRVW/xjjw5YqxClBgxIJ4kV8j?=
+ =?us-ascii?q?S/XYbTApD4k12NWmjQWD2+Eb62La2GhKtt/OYjnoUpTvZGHy9ZkTANkpHpgZ?=
+ =?us-ascii?q?kwXlceUXt7xwmUcns+xwm8vdK/vhiknQoGowBkcQiCOqxGzHKLmqHUgh6iES?=
+ =?us-ascii?q?qCtWuHBMyF1AwRjTX552x5knuc4hK9ugMS4U1vd44Os/5WHNQ/3wSNwP0IV9?=
+ =?us-ascii?q?7mH90FisfH0jzUS4Q4zaPVNi1nBmiRHF5kYP6ywcyD1T9AMTO63TurO1p+j+?=
+ =?us-ascii?q?Wbd80t/A9+piOepfUgDQ7qUNg+L0yIEV6+nixlEhyozzqdrbKpGORkL022Ex?=
+ =?us-ascii?q?okjxs9MuJq8TRYSEpfNwOlNAQNFFyxePLFd/OCVLHW6t/uVxRKUfnbpxcJoE?=
+ =?us-ascii?q?xhqb4AV/+BAAVZO++YdHzYDY03RnOmx2r+6FrBhi8l/fsnmOIQT5iNpwT3DV?=
+ =?us-ascii?q?610RJnCR+DV4IYd0mlhwM9JGvnaaowSbj82NEbMZBhGO1E2DpMinbf32iOuL?=
+ =?us-ascii?q?WUA8F/F97Aq52XzzRBq1OS/OtTifNHXF95emVyVpz6b8mmlUAsWMseTlWiM/?=
+ =?us-ascii?q?n623LSdmCr6XMcNEeT9+KA7xlKUwWMXBVsdUl7i+au1jUu3WtR+LU0I+3px8?=
+ =?us-ascii?q?fJjqhTzFtStDQelpHOkvwIHX4YCGeMN7gzQmLHf5ByUBzRZQzNMADD8WBTaf?=
+ =?us-ascii?q?hR3kA/W9z/VLWY36uTMECjBru78QQ6aYED5E0dTPUfociNYu7EPkKlr5v7+Z?=
+ =?us-ascii?q?o4L/Jyd17UZKhmpq9y+lxXSsp1O5SI9OwVXynic696kjsChogfYfWw7VEr9h?=
+ =?us-ascii?q?u9yTNfNi4BFdTHmAfh8wIaxFjFtvVABksmaqf8LVNSDyn3LT+IKE7Wkof2CN?=
+ =?us-ascii?q?VUwg3Y1R8hnp2nroiTzO94BiN19DB8B3sIsezbmek7PuABc4pNJNX2jc6V3a?=
+ =?us-ascii?q?pi4F+wlyKHhEZLuUfW8gt9mO8MpLVHZoHAGiUm4hjixyiDAi5oXI56ZfN2sS?=
+ =?us-ascii?q?3UHDK195CS3W6EU2vkqwEgDKcn7UciulVL8xePLPDjNXe1QaB3VN7Fo+PjR+?=
+ =?us-ascii?q?EOI54kKHtWu4BB5fO3bQyDxzZQ1E1EvOSFjUMiy8tg/mvWrJwNnHCQ+DqaUz?=
+ =?us-ascii?q?+1wPYNimKtRm6HD+XTVZ6OR83Km7VXvJgCDa3QlY7TqNauTZ1piVcDnAbpkN?=
+ =?us-ascii?q?7XPr2piAGfzuqbbpYUaydE=3D?=
+IronPort-HdrOrdr: =?us-ascii?q?A9a23=3AvhE+Da7/KqOngCZVLgPXwBrXdLJyesId70?=
+ =?us-ascii?q?hD6qkvc31om52j+fxGws516faVskd1ZJhAo6HyBEDkewK5yXcb2/hqAV89ND?=
+ =?us-ascii?q?OWyFdAQLsSkLcKoQeQYBEWh9Qtq5uIGpIWYLaAbikDsSvj2njbLz9J+rn3iZ?=
+ =?us-ascii?q?xA7t2usEuFIzsaF52ILD0SNu9WKDwQeOA/P+tJKHNU3Kcq1lydRUg=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0B8BAD4vp1he0WAVdFaDhABKwsGDEa?=
+ =?us-ascii?q?BNU6BLShwZioHOYRHiQODGHWCCi8BAQaCGoo/A3cMhgqDX4Y4gXwLAQEBAQE?=
+ =?us-ascii?q?BAQEBBwEBBDsCBAEBAQFMhDAEG4JbAiU0CQ4BAgICAQEBEgEBAQQBAQECAQY?=
+ =?us-ascii?q?CAQEBEwEBDQ0PBzQihWgNgjUMF4N5AggRHQEbHgMJCQgBPgIEFwoRAQUBERE?=
+ =?us-ascii?q?eBRKFJAEDCSQCB1yhc4EEPYsygRUFF4EBggkGBQWEPgoZKA1pOYEeAgcJAYE?=
+ =?us-ascii?q?whgeBIwGCAVqEUxx9gRCBS4hEgksxgjQEkRBTSFWBQYkrmBCceD8PLy+CBmC?=
+ =?us-ascii?q?fAzOVbAyRNoVDkFOhbIQfAgQBAQEKBhAjEoEsghRwgzk/EhkPj0YBC4JAihl?=
+ =?us-ascii?q?mITI4AgYLAQEDCYVEJhONcgEB?=
+X-IPAS-Result: =?us-ascii?q?A0B8BAD4vp1he0WAVdFaDhABKwsGDEaBNU6BLShwZioHO?=
+ =?us-ascii?q?YRHiQODGHWCCi8BAQaCGoo/A3cMhgqDX4Y4gXwLAQEBAQEBAQEBBwEBBDsCB?=
+ =?us-ascii?q?AEBAQFMhDAEG4JbAiU0CQ4BAgICAQEBEgEBAQQBAQECAQYCAQEBEwEBDQ0PB?=
+ =?us-ascii?q?zQihWgNgjUMF4N5AggRHQEbHgMJCQgBPgIEFwoRAQUBEREeBRKFJAEDCSQCB?=
+ =?us-ascii?q?1yhc4EEPYsygRUFF4EBggkGBQWEPgoZKA1pOYEeAgcJAYEwhgeBIwGCAVqEU?=
+ =?us-ascii?q?xx9gRCBS4hEgksxgjQEkRBTSFWBQYkrmBCceD8PLy+CBmCfAzOVbAyRNoVDk?=
+ =?us-ascii?q?FOhbIQfAgQBAQEKBhAjEoEsghRwgzk/EhkPj0YBC4JAihlmITI4AgYLAQEDC?=
+ =?us-ascii?q?YVEJhONcgEB?=
+X-IronPort-AV: E=Sophos;i="5.87,258,1631557800"; 
+   d="scan'208,217";a="13016649"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from mail-wm1-f69.google.com ([209.85.128.69])
+  by ciscoesa2.vit.ac.in with ESMTP; 24 Nov 2021 09:48:40 +0530
+Received: by mail-wm1-f69.google.com with SMTP id p12-20020a05600c1d8c00b0033a22e48203so672442wms.6
+        for <rajesh.kumar@vit.ac.in>; Tue, 23 Nov 2021 20:27:40 -0800 (PST)
+X-Gm-Message-State: AOAM531gKfzOFBkHxkfD91hWcEVXjOxPf7WM9R57tluyWCDXTBTQncb7
+	fJ6wSumkWH6q1xqPQ1O2BNkfd0AUZv1CT60JZZ9F3pIzrDQk1yR8DhtsBnxPAQRhfLig/e44J+5
+	H1AG/Gggxk+RT9XRv1Tm7rbDCSg==
+X-Received: by 2002:a05:600c:1c07:: with SMTP id j7mr11354864wms.12.1637728059664;
+        Tue, 23 Nov 2021 20:27:39 -0800 (PST)
+X-Received: by 2002:a05:600c:1c07:: with SMTP id j7mr11354822wms.12.1637728059378;
+        Tue, 23 Nov 2021 20:27:39 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1637728059; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FcdaYhSSPgiDYPnh4LBkUG6jQltTkXCJP0/luy4/Aw6gfmhXfEO/x4Nn5iao7eM8lU
+         y0hOkq3baJMG0Bn/IxuyeKaBoRM1Xi70ZCE7ONn5e9UPi04IKFaEYOYVymXIFjMDQjPJ
+         FejzfY5vsCxPMeQ8DyVp5HEM0vJUue1vf1/nb1X+W1Wo/vmFkG6z+vJo0aRUo32MlWJ1
+         Mrdtgb2Ck3TI2iXvh2p1tLg0LkawHce8M4DTn6AylPMUoWM8N2CqNsRlA9oGSR9UHdsB
+         01UdnP5bX9fpMphYIetHleTxld1c6/UWJCQQ1l+vZ/bbrjwqcarNZRjYe1FJnZ8iUOc0
+         mPDQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=disposition-notification-to:mime-version:subject:to:from:date
+         :message-id:dkim-signature;
+        bh=z1+mGrLO3cqwIORJJ5xFYH2zJoGncBqHwc9RpYdqcHg=;
+        b=jhCwBehYmy2k4Uc6MOHz2qIVJObA0ebK5oOcHBspP8RwWqiOpDP9o6OLbj++l4XMAr
+         EDfPheBafjn91TOZ5XKSbh15080HXY53CtXFz5fcMK+jLpqXWZCGddG1Sgudo7Icda3n
+         6VR0EPGNT/XOJyfgInITi1Ez/yNv/Xdq/Sn2z8KreODIZGRnmPEQX1udH1qJSx+gTLJM
+         Wvd5S16ZQ+CbcvQ3oATts4nWVe9qdsFXx0fYSKx8h37VIYTzyiRWyLBFFQCtBru6Qud6
+         pnw2RYLBWB6IUpsM+WeWqvs9vvWjYa94ikft96fTcLYZ8FBFvYW7XKhKdRD3JnCV3oxz
+         PcgQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=M46XfSto;
+       spf=pass (google.com: domain of jagritikendranavbharat@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=jagritikendranavbharat@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-sor-f65.google.com (mail-sor-f65.google.com. [209.85.220.65])
+        by mx.google.com with SMTPS id o14sor7605235wrc.14.2021.11.23.20.27.39
+        for <rajesh.kumar@vit.ac.in>
+        (Google Transport Security);
+        Tue, 23 Nov 2021 20:27:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of jagritikendranavbharat@gmail.com designates 209.85.220.65 as permitted sender) client-ip=209.85.220.65;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20210112 header.b=M46XfSto;
+       spf=pass (google.com: domain of jagritikendranavbharat@gmail.com designates 209.85.220.65 as permitted sender) smtp.mailfrom=jagritikendranavbharat@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=message-id:date:from:to:subject:mime-version
+         :disposition-notification-to;
+        bh=z1+mGrLO3cqwIORJJ5xFYH2zJoGncBqHwc9RpYdqcHg=;
+        b=M46XfStoalZPYNHU+QSAeUpfCNEWSQMlJGeekgcvYUO6ZEI0Zqui064D8A/lwvQamT
+         BawWP6AvPq+CGWVWqLPBJWxF1pTWg5Cm8RWFBpNWxYop4e0nrJbq8pVHVvtLjm5Q8iZI
+         UhOEjc/+4XphWSpGzLWiFXkno/u7yq/w8TUN61vK+hp+3QERrPkrx6NIA0uP5XkmvXcs
+         g3nbD5UGzm+jNKM/s1OqSTJxvwHrONawZVriqAxUk6MYMpyNkY5DW2HC+0H5Afj4KY+a
+         e6oFE2YkM5JBzEqWLwrBzq7fa4TCN60/QJZD4g6XA2Z5lev9shs8JHzWmiRb4weMw8KY
+         /+sw==
+X-Google-Smtp-Source: ABdhPJw6iGtEzg6V/M6KY5rMpeWyG9Blf5ng4NHr4Wyp6U2YFyRlQqzSRl8ep/DgzhpKe824vBbLzQ==
+X-Received: by 2002:adf:f151:: with SMTP id y17mr12594562wro.153.1637728059013;
+        Tue, 23 Nov 2021 20:27:39 -0800 (PST)
+Return-Path: jagritikendranavbharat@gmail.com
+Received: from localhost ([102.89.2.124])
+        by smtp.gmail.com with ESMTPSA id d7sm13421021wrw.87.2021.11.23.20.27.37
+        for <rajesh.kumar@vit.ac.in>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Tue, 23 Nov 2021 20:27:38 -0800 (PST)
+Message-ID: <619dbf3a.1c69fb81.db5e8.f079@mx.google.com>
+Date: Tue, 23 Nov 2021 20:27:38 -0800 (PST)
+From: =?utf-8?B?UkFNQkFCVSBLT0RBTEk=?= <jagritikendranavbharat@gmail.com>
+To: <rajesh.kumar@vit.ac.in>
+Subject: =?utf-8?B?T24gZGVzaz8=?=
+Mime-Version: 1.0
+X-Mailer: Microsoft Outlook 16.0
+Disposition-Notification-To: =?utf-8?B?UkFNQkFCVSBLT0RBTEk=?= <jagritikendranavbharat@gmail.com>
+Content-Type: multipart/alternative;
+	boundary="p2cjuq1k5tegllqotcocjij4vfdmqvt3qmht"
+X-MS-Exchange-Organization-Network-Message-Id: b7485efe-46a1-4a91-ac29-08d9af0333d6
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-Loop: 1
+X-MS-Exchange-Organization-AuthSource: MBS13.vit.ac.in
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.3299808
+X-MS-Exchange-Processed-By-BccFoldering: 15.01.2308.008
